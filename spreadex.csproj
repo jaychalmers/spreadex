@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Spreadex.Tests\**" />
+    <EmbeddedResource Remove="Spreadex.Tests\**" />
+    <None Remove="Spreadex.Tests\**" />
+  </ItemGroup>
+
 </Project>
